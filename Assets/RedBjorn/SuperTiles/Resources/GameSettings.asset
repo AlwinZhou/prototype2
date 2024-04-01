@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a2b9afd7e1e07384dafa64566255b129, type: 3}
+  m_Name: GameSettings
+  m_EditorClassIdentifier: 
+  Levels: {fileID: 11400000, guid: ad8fa60335dffe64291bfd838f45b057, type: 2}
+  Input: {fileID: 11400000, guid: ecc28f597f15cca47aa4b5f3616652ca, type: 2}
+  Prefabs: {fileID: 11400000, guid: 4819c5aae57e6f142ac30bc39c3de020, type: 2}
+  Sound: {fileID: 11400000, guid: 516655299bdf970459dd639c7a5a7a6e, type: 2}
+  Battle: {fileID: 11400000, guid: ba8107f3af1c128438bd633985a14e84, type: 2}
+  Text: {fileID: 11400000, guid: 8269731d6fcaa8a45ae56b57fd572c3a, type: 2}
+  Log: {fileID: 11400000, guid: b1f8318fa9d1db041a68d77f4aba2362, type: 2}

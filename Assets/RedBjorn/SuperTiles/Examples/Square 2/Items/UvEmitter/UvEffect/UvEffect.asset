@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 94a26e61d0266d247af7365d1262f65c, type: 3}
+  m_Name: UvEffect
+  m_EditorClassIdentifier: 
+  Icon: {fileID: 0}
+  Caption: Radiation
+  Stats:
+  - Stat: {fileID: 11400000, guid: a89d64b198125a94db3748f61fe873ab, type: 2}
+    Value: 2
+  FxAddShow: 1
+  FxAddHandler: {fileID: 0}
+  FxRemoveShow: 1
+  FxRemoveHandler: {fileID: 0}
+  OnAdded: {fileID: 11400000, guid: 7d5233381a3d4724fae6359e75c33d8d, type: 2}
+  Handler: {fileID: 0}
+  OnRemoved: {fileID: 11400000, guid: bd98d32b697adaa4b8acab07ad8d2693, type: 2}

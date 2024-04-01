@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 01a6fefb39159c0408eabee65b0414ea, type: 3}
+  m_Name: TankCreator
+  m_EditorClassIdentifier: 
+  Caption: Factory
+  Description: Creates single Tank unit
+  Stackable: 0
+  MaxStackCount: 1
+  Stats:
+  - Stat: {fileID: 11400000, guid: 605ae8dc5537c9c449a6eef109483192, type: 2}
+    Value: 6000
+  Tags:
+  - {fileID: 11400000, guid: ad3419103d68cbe44aeba7cdf9bc64ac, type: 2}
+  - {fileID: 11400000, guid: 6f5f7c46ce11de84398cc61350b2e1be, type: 2}
+  Selector: {fileID: 11400000, guid: fe5c6f7d85c5fca499fb62ab8486e788, type: 2}
+  ActionHandler: {fileID: 11400000, guid: 0c8ef0499d398b646934bcba58a96138, type: 2}
+  AvailableCondition:
+    IsOwnerAloneInTile: 1
+    IsOwnerTileContains: 0
+    OwnerTileContains: {fileID: 0}
+    ItemCostTag: {fileID: 11400000, guid: 605ae8dc5537c9c449a6eef109483192, type: 2}
+    ResourceTag: {fileID: 11400000, guid: 6386670e834846148978b63cfe740ac0, type: 2}
+  Visual:
+    Model: {fileID: 0}
+    IconSmall: {fileID: 21300000, guid: f1ff7251e0ddc554f8e11c73ba1d53c4, type: 3}
+    UseColor: 0
+    Color: {r: 1, g: 0, b: 0, a: 1}
+    TrajectoryMaterial: {fileID: 0}
+    UseSelectorCustom: 0
+    SelectorCustom: {fileID: 0}
+    SelectorGenerated:
+      BorderSize: 0
+      ShowInner: 0
+      Inner: {fileID: 0}
+      ShowBorder: 0
+      Border: {fileID: 0}
+    UseAvailableCustom: 0
+    AvailableCustom: {fileID: 0}
+    AvailableGenerated:
+      BorderSize: 0
+      ShowInner: 0
+      Inner: {fileID: 0}
+      ShowBorder: 0
+      Border: {fileID: 0}
+    SelectorMaterial: {fileID: 0}

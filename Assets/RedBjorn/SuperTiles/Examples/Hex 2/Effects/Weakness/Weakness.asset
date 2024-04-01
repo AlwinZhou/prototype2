@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 94a26e61d0266d247af7365d1262f65c, type: 3}
+  m_Name: Weakness
+  m_EditorClassIdentifier: 
+  Icon: {fileID: 21300000, guid: aa4c7c284113002488856e9a28bb0bcc, type: 3}
+  Caption: Weakness
+  Stats:
+  - Stat: {fileID: 11400000, guid: a89d64b198125a94db3748f61fe873ab, type: 2}
+    Value: 2
+  FxAddShow: 1
+  FxAddHandler: {fileID: 0}
+  FxRemoveShow: 1
+  FxRemoveHandler: {fileID: 0}
+  OnAdded: {fileID: 11400000, guid: 9544a32f0e4304c48b58a29c732038ed, type: 2}
+  Handler: {fileID: 0}
+  OnRemoved: {fileID: 11400000, guid: 316459f27e36dab4ebae7b20e7b4f7df, type: 2}

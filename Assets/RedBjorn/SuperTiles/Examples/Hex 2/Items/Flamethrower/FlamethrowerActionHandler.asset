@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 42a83c009358f484798c800af59cbb50, type: 3}
+  m_Name: FlamethrowerActionHandler
+  m_EditorClassIdentifier: 
+  StatPower: {fileID: 11400000, guid: 8f1b65812657dba4099a3c04c03167c8, type: 2}
+  StatPowerMax: {fileID: 0}
+  PowerRandom: 0
+  StatWarmUp: {fileID: 11400000, guid: 0978eba42c0e52845ae0d64b1ee4f881, type: 2}
+  ProjectileSpeed: {fileID: 11400000, guid: 29b9ebfd10d476b42a8637bb0ece8cf2, type: 2}
+  HolderTag: {fileID: 11400000, guid: a30bac545e162e44dbfef99c5dc59605, type: 2}
+  Projectile: {fileID: 114214899091502320, guid: 45eafd432fee4a04992fd573e8f4cd44,
+    type: 3}
+  ProjectileTag: {fileID: 0}
+  AnimatorState: 
+  FireSound: {fileID: 0}
+  Fx: {fileID: 1135016935097538143, guid: fa24211a536f47d4bb71c3acf7647fcf, type: 3}
+  EffectAddDuration: {fileID: 11400000, guid: b2b924c20d6308647a4ab2fce3d8cccc, type: 2}
+  EffectsAdd: []
+  EffectsRemove: []

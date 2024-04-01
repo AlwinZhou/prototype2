@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 94a26e61d0266d247af7365d1262f65c, type: 3}
+  m_Name: Bleeding
+  m_EditorClassIdentifier: 
+  Icon: {fileID: 21300000, guid: 5bbb9df911209384e845f0e912142c99, type: 3}
+  Caption: Bleeding
+  Stats:
+  - Stat: {fileID: 11400000, guid: a89d64b198125a94db3748f61fe873ab, type: 2}
+    Value: 30
+  FxAddShow: 1
+  FxAddHandler: {fileID: 0}
+  FxRemoveShow: 1
+  FxRemoveHandler: {fileID: 0}
+  OnAdded: {fileID: 0}
+  Handler: {fileID: 11400000, guid: 00e5af60a425cc94684207133708eb7b, type: 2}
+  OnRemoved: {fileID: 0}

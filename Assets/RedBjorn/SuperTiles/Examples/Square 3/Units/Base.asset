@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 29f9593384c2a3c42b5207762172c474, type: 3}
+  m_Name: Base
+  m_EditorClassIdentifier: 
+  Avatar: {fileID: 21300000, guid: 55c5afcd72d1962478bd6e335673e454, type: 3}
+  Model: {fileID: 4008104842481297132, guid: 716539dedf012c543b83dbfa65e64d55, type: 3}
+  Collider: {fileID: 7911970947809502428, guid: 0a45292faba769240972833fc713f821,
+    type: 3}
+  UiHolder: {x: 0, y: 2, z: 0}
+  Tags:
+  - {fileID: 11400000, guid: ffa9f695a8f9dfd42a0d0cb64bc66d45, type: 2}
+  Stats:
+  - Stat: {fileID: 11400000, guid: 87e0f3529cdb3f84fab327d1c0f20af5, type: 2}
+    Value: 20
+  DefaultItems:
+  - {fileID: 11400000, guid: 8a38c66a3a46f144fae4710c50a0305c, type: 2}
+  HealthAction:
+    HaveHealthCustomPrefab: 1
+    HealthCustomPrefab: {fileID: 0}
+  DiedAction:
+    Rebirth: 1
+    KillerTakeControl: 1
+  UnitChangeControllerAction:
+    ChangeModelColorData: 1
+    ModelColorData:
+    - Team: {fileID: 11400000, guid: 2197e8c56b048db43a79bd78925a11e4, type: 2}
+      Color: {r: 1, g: 0, b: 0, a: 0.6}
+    - Team: {fileID: 11400000, guid: dfa815e654a88ff41be234540032e413, type: 2}
+      Color: {r: 0, g: 0, b: 1, a: 0.6}

@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 093537d8dada51e4a9b3aff1ed11d536, type: 3}
+  m_Name: Hex 1_Level
+  m_EditorClassIdentifier: 
+  Caption: Trying to create King's Bounty-like level
+  SceneName: Hex 1
+  AutoStart: 1
+  EqualEffectInfluenceDuration: 1
+  TeamMarkersEnable: 0
+  Map: {fileID: 11400000, guid: 36c6393e64ee10d4a845fa5be4c3ed3b, type: 2}
+  Turn: {fileID: 11400000, guid: 007759a7d3203bf4d88bdb3a8da2a868, type: 2}
+  Actions: {fileID: 11400000, guid: c98c8518890712047be893fb6b0846ea, type: 2}
+  Health: {fileID: 11400000, guid: f2d0a022f1fc64a4ca3ddc57f7c5b3d6, type: 2}
+  BattleFinish: {fileID: 11400000, guid: bf03ec2e4360d7845b3382dbf2c708bc, type: 2}
+  Relationship: {fileID: 11400000, guid: ada3d3e250113c44697b376ef43bedee, type: 2}
+  TileRuleIsItemAvailable: {fileID: 11400000, guid: 638f6a3d735f8e94f97ab437285e49d5,
+    type: 2}
+  MarkerAlly: {fileID: 0}
+  MarkerEnemy: {fileID: 0}
+  Camera:
+    StartPosition: {x: 0, y: 10, z: -12}
+    StartRotation: {x: 40, y: 0, z: 0}
+    Prefab: {fileID: 5497783375579891598, guid: 9fc5c451bfd24d343ad03e21743a80a8,
+      type: 3}
+  Players:
+  - Name: Player 1
+    Team: {fileID: 11400000, guid: 2197e8c56b048db43a79bd78925a11e4, type: 2}
+    ControlledBy: 1
+  - Name: Player 2
+    Team: {fileID: 11400000, guid: dfa815e654a88ff41be234540032e413, type: 2}
+    ControlledBy: 2
+  OnBattleStartAction:
+    AddResources: 0
+    Resource: {fileID: 0}
+    ResourceValue: 0
+  OnTurnStartAction:
+    AddResources: 0
+    Resource: {fileID: 0}
+    ResourceCountUnit: {fileID: 0}
+    ResourceValue: 0
+    HealAllyInTile: 0
+    HealAllyInTileHealAllExcept: {fileID: 0}
+    HealAllyInTileHealer: {fileID: 0}
+    HealAllyInTeamAmount: 0
+    HealSelf: 0
+    HealSelfTarget: {fileID: 0}
+    HealSelfBlocker: {fileID: 0}
+    HealSelfAmount: 0

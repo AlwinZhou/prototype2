@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f43ed8efa93b5824aba1575d9a7782c5, type: 3}
+  m_Name: LevelSettings
+  m_EditorClassIdentifier: 
+  MenuSceneName: Menu
+  GameSceneName: Game
+  LoadingSceneName: Loading
+  LoadingTimeMin: 2
+  LoadingTimeAfter: 1
+  LoadMenuWhenLevelStarts: 0
+  Data:
+  - {fileID: 11400000, guid: 5f0e90eed73395441a0e37f7df1d20c9, type: 2}
+  - {fileID: 11400000, guid: cde87b156a741f04592817302b112b07, type: 2}
+  - {fileID: 11400000, guid: 4846dcc09c4598d4aa1e345e9b1915f6, type: 2}
+  - {fileID: 11400000, guid: bfe0342fd391a6544a3dd2f1b1021029, type: 2}
+  - {fileID: 11400000, guid: 16cf9539b770afc4cbf9fe6906c1e59b, type: 2}
+  - {fileID: 11400000, guid: 02344fdf0791a34449a27f6bedb30267, type: 2}
+  - {fileID: 11400000, guid: b3fe7cd4a805ce94fb96b6c06f8cd9c7, type: 2}

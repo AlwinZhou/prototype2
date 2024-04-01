@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b2bfaa80bc61ce2478662b0ff50a0eb9, type: 3}
+  m_Name: TeleporterActionHandler
+  m_EditorClassIdentifier: 
+  HideDiration: 0.5
+  FxStart:
+    Prefab: {fileID: 1441221805150158, guid: 79d05caaa0c22224593b02f0c16cdf16, type: 3}
+    Duration: 0.5
+  ShowDuration: 0.5
+  FxFinish:
+    Prefab: {fileID: 1441221805150158, guid: 198d8a9c6bf970245864ef7c96a934d2, type: 3}
+    Duration: 0.5
+  AnimatorState: 
+  HolderTag: {fileID: 0}
+  EffectAddDuration: {fileID: 0}
+  EffectsAdd: []
+  EffectsRemove: []

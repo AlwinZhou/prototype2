@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 093537d8dada51e4a9b3aff1ed11d536, type: 3}
+  m_Name: Square 2_Level
+  m_EditorClassIdentifier: 
+  Caption: Resemble Into the Breach level
+  SceneName: Square 2
+  AutoStart: 1
+  EqualEffectInfluenceDuration: 1
+  TeamMarkersEnable: 1
+  Map: {fileID: 11400000, guid: 07d031fdc8f7b3b48a2fd422d0067369, type: 2}
+  Turn: {fileID: 11400000, guid: 5d66f18d2f7961049847b619a8fa6251, type: 2}
+  Actions: {fileID: 11400000, guid: 67063a072bdab61459a70a4090b8251f, type: 2}
+  Health: {fileID: 11400000, guid: f8cb021cace211446bf0445c2946446f, type: 2}
+  BattleFinish: {fileID: 11400000, guid: 0856e75ea2acc7c48afb61bad888744f, type: 2}
+  Relationship: {fileID: 11400000, guid: e13d8351797019d4b86dfed4ae692e97, type: 2}
+  TileRuleIsItemAvailable: {fileID: 11400000, guid: 638f6a3d735f8e94f97ab437285e49d5,
+    type: 2}
+  MarkerAlly: {fileID: 7784059121697155884, guid: 860baf8023a048d49b04bd0fc2c14a35,
+    type: 3}
+  MarkerEnemy: {fileID: 7784059121697155884, guid: b781de4c4a6563a48802273de77828fc,
+    type: 3}
+  Camera:
+    StartPosition: {x: 5.5, y: 7.5, z: -5.5}
+    StartRotation: {x: 44, y: -45, z: 0}
+    Prefab: {fileID: 5184336284769579937, guid: 953406ae33722b54c8f82c736fba9113,
+      type: 3}
+  Players:
+  - Name: Player 1
+    Team: {fileID: 11400000, guid: 2197e8c56b048db43a79bd78925a11e4, type: 2}
+    ControlledBy: 1
+  - Name: Player 2
+    Team: {fileID: 11400000, guid: dfa815e654a88ff41be234540032e413, type: 2}
+    ControlledBy: 2
+  OnBattleStartAction:
+    AddResources: 0
+    Resource: {fileID: 0}
+    ResourceValue: 0
+  OnTurnStartAction:
+    AddResources: 0
+    Resource: {fileID: 0}
+    ResourceCountUnit: {fileID: 0}
+    ResourceValue: 0
+    HealAllyInTile: 0
+    HealAllyInTileHealAllExcept: {fileID: 0}
+    HealAllyInTileHealer: {fileID: 0}
+    HealAllyInTeamAmount: 0
+    HealSelf: 0
+    HealSelfTarget: {fileID: 0}
+    HealSelfBlocker: {fileID: 0}
+    HealSelfAmount: 0

@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 60d98b9131cb2c444aa0e48fc29795c4, type: 3}
+  m_Name: GardenForkActionHandler
+  m_EditorClassIdentifier: 
+  StatPower: {fileID: 11400000, guid: 8f1b65812657dba4099a3c04c03167c8, type: 2}
+  StatPowerMax: {fileID: 0}
+  PowerRandom: 0
+  HolderTag: {fileID: 0}
+  AnimatorState: 
+  AttackSound: {fileID: 0}
+  DurationStart: 0.2
+  DurationFinish: 0.5
+  EffectAddDuration: {fileID: 0}
+  EffectsAdd: []
+  EffectsRemove: []

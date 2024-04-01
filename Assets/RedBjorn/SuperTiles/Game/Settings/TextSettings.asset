@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3830ddcce24429b4ea8ed22d44e0eafd, type: 3}
+  m_Name: TextSettings
+  m_EditorClassIdentifier: 
+  Status:
+    TurnMy: My turn
+    TurnOther: '{0}''s turn'
+    TurnFinish: Turn finishing...
+    OnStart: Starting...
+    OnBattleStart: Preparing battle...
+    OnBattleFinish: Battle is over
+  TurnStart:
+    My: PLAYER TURN
+    Ally: ALLY TURN
+    Enemy: ENEMY TURN
+  TurnFinish:
+    CompleteQuestion: Complete turn?
+    CompleteConfirm: Yes
+    CompleAbort: No
+  BattleFinish:
+    Victory: '{0} win!'
+    Draw: Draw!
+    ToMenu: Go to menu?
+    Confirm: Yes
+    Abort: No

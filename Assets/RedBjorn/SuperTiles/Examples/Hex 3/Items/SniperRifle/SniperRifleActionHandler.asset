@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aa1343d4cb6ef074691d0c03624dfa42, type: 3}
+  m_Name: SniperRifleActionHandler
+  m_EditorClassIdentifier: 
+  StatPower: {fileID: 11400000, guid: b6ce274fa10f2d047a596970ba3650ba, type: 2}
+  StatPowerMax: {fileID: 11400000, guid: e560ef0c8dd25fc4098421e5942568c8, type: 2}
+  PowerRandom: 1
+  StatWarmUp: {fileID: 11400000, guid: 0978eba42c0e52845ae0d64b1ee4f881, type: 2}
+  ProjectileSpeed: {fileID: 11400000, guid: 29b9ebfd10d476b42a8637bb0ece8cf2, type: 2}
+  HolderTag: {fileID: 11400000, guid: a30bac545e162e44dbfef99c5dc59605, type: 2}
+  Projectile: {fileID: 114214899091502320, guid: 34844b42001869c42a341f1a676f7b11,
+    type: 3}
+  ProjectileTag: {fileID: 11400000, guid: 4d15e0640833dd241944c59bb0effd13, type: 2}
+  AnimatorState: 
+  FireSound: {fileID: 0}
+  FxHit:
+    Prefab: {fileID: 0}
+    Duration: 1
+  EffectAddDuration: {fileID: 0}
+  EffectsAdd: []
+  EffectsRemove: []

@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 836d29412cb0548429fc1753736ddc49, type: 3}
+  m_Name: PrefabSettings
+  m_EditorClassIdentifier: 
+  LoadingScreen: {fileID: 1627958911374454, guid: 0e0e2799fd18a7847a8b0b732bce92e4,
+    type: 3}
+  TurnStartMyPanel: {fileID: 8840302722809307120, guid: 3278389994f5e2a47b2a7ca23ed11321,
+    type: 3}
+  TurnStartOtherPanel: {fileID: -6730455697088406143, guid: 0c6b85ec917422d45aadcdaf85d9d857,
+    type: 3}
+  BattleFinishPanel: {fileID: 9038936864586034333, guid: 4ad01b864165cd9468c7448938d5832f,
+    type: 3}
+  ConfirmMessage: {fileID: 114486167608318362, guid: 2c1c5b49b75b87d4d9d6bf4382acfca8,
+    type: 3}
+  UnitView: {fileID: 114083338072750924, guid: 3c6649a61ad283d4f9ec883b1e9734b5, type: 3}
+  TileInvalid: {fileID: 114816368346101284, guid: 02b0a753b60dc3e4c95e8a4fd297d60d,
+    type: 3}
+  AreaOutline: {fileID: 2293582826224085151, guid: d8edef62396b8bd4c91029e118f1861f,
+    type: 3}
+  Path: {fileID: 3510282534674492196, guid: 25517464d93b0be4d9f901c264ae71d6, type: 3}
+  RangeMode: {fileID: 114642508413101910, guid: b985d30e1c1870447aae67e58392f16a,
+    type: 3}
+  DirectionMode: {fileID: 114131270839404522, guid: dfa236b58d126524d957c1173a3b1f66,
+    type: 3}
+  MenuLoader: {fileID: 4066535392826416183, guid: 04d8dc04d5db72b4a9bf222ecbf1ebd1,
+    type: 3}
+  HealthBar: {fileID: 4954667644095402602, guid: 7abed7456c304da42896b571ad927739,
+    type: 3}
+  EffectUI: {fileID: 5537049606267041470, guid: e11d9ef751a00e84ba91eaacf7b3892e,
+    type: 3}
+  HealthChange: {fileID: 2782965354195104484, guid: 68e78c537d8c4d54792156d6b5b4587b,
+    type: 3}

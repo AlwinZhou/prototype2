@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a6809b25749081c4b969cea1266be24a, type: 3}
+  m_Name: CanonActionHandler
+  m_EditorClassIdentifier: 
+  VictimMultiplayer: {fileID: 11400000, guid: 2fc62cba85ced6649a868e82f0242fb4, type: 2}
+  OwnerMultiplier: {fileID: 11400000, guid: 8bfabdf0d0fe60c4fb435005381319e2, type: 2}
+  Round: 1
+  HolderTag: {fileID: 0}
+  AnimatorState: 
+  FireSound: {fileID: 0}

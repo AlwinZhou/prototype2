@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d93801bdd593b114bbfe4339ab7282dc, type: 3}
+  m_Name: SetupWindowSettings
+  m_EditorClassIdentifier: 
+  Scenes:
+  - {fileID: 102900000, guid: 42b6ffeb03c72c0479761b2c1c981cb4, type: 3}
+  - {fileID: 102900000, guid: 895a98f65cad04548b530a18efef29b1, type: 3}
+  - {fileID: 102900000, guid: 452c703654e058e478668b0b6598c797, type: 3}
+  - {fileID: 102900000, guid: 95f9ef64f3f583f44940bf5089e95359, type: 3}
+  - {fileID: 102900000, guid: cad636a1ac9ced54e92538bf12ec3a00, type: 3}
+  - {fileID: 102900000, guid: 23b80fbdc06e9cf4e9a2df5fba5ef935, type: 3}
+  - {fileID: 102900000, guid: c8e73f969981ed7438f8ff183ebd7bc4, type: 3}
+  - {fileID: 102900000, guid: 160bfba2720c2c1438925d53c575ab04, type: 3}
+  - {fileID: 102900000, guid: d2851bb6f4477c549986b0afc8b60d63, type: 3}
+  UpgradeSetup:
+  - Older: 
+    Newer: 1.4.6

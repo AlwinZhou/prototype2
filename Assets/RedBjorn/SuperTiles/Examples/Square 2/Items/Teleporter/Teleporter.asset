@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 01a6fefb39159c0408eabee65b0414ea, type: 3}
+  m_Name: Teleporter
+  m_EditorClassIdentifier: 
+  Caption: Teleporter
+  Description: 
+  Stackable: 0
+  MaxStackCount: 1
+  Stats:
+  - Stat: {fileID: 11400000, guid: d769120a22c2dd94f85f0b0676fa4790, type: 2}
+    Value: 7
+  - Stat: {fileID: 11400000, guid: 02ff82ad2e668174a94206fb9652c466, type: 2}
+    Value: 0
+  - Stat: {fileID: 11400000, guid: f37a0b4c8e4f9c147996579540689891, type: 2}
+    Value: 1
+  Tags:
+  - {fileID: 11400000, guid: ad3419103d68cbe44aeba7cdf9bc64ac, type: 2}
+  Selector: {fileID: 11400000, guid: cf1269fdfd97ffb4b917ae1bc66fe8b8, type: 2}
+  ActionHandler: {fileID: 11400000, guid: d24799ffe3a443a41ae2c81f94b3f0b8, type: 2}
+  AvailableCondition:
+    IsOwnerAloneInTile: 0
+    IsOwnerTileContains: 0
+    OwnerTileContains: {fileID: 0}
+    ItemCostTag: {fileID: 0}
+    ResourceTag: {fileID: 0}
+  Visual:
+    Model: {fileID: 0}
+    IconSmall: {fileID: 21300000, guid: 1ff4979d6197d924ea562f7480d4d382, type: 3}
+    UseColor: 1
+    Color: {r: 0, g: 0.84313726, b: 1, a: 1}
+    TrajectoryMaterial: {fileID: 2100000, guid: 7906f73112619704b85e6b3886d821cd,
+      type: 2}
+    UseSelectorCustom: 0
+    SelectorCustom: {fileID: 0}
+    SelectorGenerated:
+      BorderSize: 0.05
+      ShowInner: 1
+      Inner: {fileID: 2100000, guid: 61f410e7ead064448b9cc56213987cb9, type: 2}
+      ShowBorder: 0
+      Border: {fileID: 2100000, guid: 61f410e7ead064448b9cc56213987cb9, type: 2}
+    UseAvailableCustom: 0
+    AvailableCustom: {fileID: 0}
+    AvailableGenerated:
+      BorderSize: 0.25
+      ShowInner: 1
+      Inner: {fileID: 2100000, guid: 81ac3a2e6a9977349aca9c23a9009a9f, type: 2}
+      ShowBorder: 0
+      Border: {fileID: 0}
+    SelectorMaterial: {fileID: 0}

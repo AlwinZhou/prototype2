@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 42a83c009358f484798c800af59cbb50, type: 3}
+  m_Name: SpearActionHandler
+  m_EditorClassIdentifier: 
+  StatPower: {fileID: 11400000, guid: 8f1b65812657dba4099a3c04c03167c8, type: 2}
+  StatPowerMax: {fileID: 0}
+  PowerRandom: 0
+  StatWarmUp: {fileID: 11400000, guid: 0978eba42c0e52845ae0d64b1ee4f881, type: 2}
+  ProjectileSpeed: {fileID: 11400000, guid: 29b9ebfd10d476b42a8637bb0ece8cf2, type: 2}
+  HolderTag: {fileID: 11400000, guid: a30bac545e162e44dbfef99c5dc59605, type: 2}
+  Projectile: {fileID: 114406837055992630, guid: 59f736f524022414780c9a52b6e9ead0,
+    type: 3}
+  ProjectileTag: {fileID: 0}
+  AnimatorState: 
+  FireSound: {fileID: 0}
+  Fx: {fileID: 0}
+  EffectAddDuration: {fileID: 0}
+  EffectsAdd: []
+  EffectsRemove: []

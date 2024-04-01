@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 093537d8dada51e4a9b3aff1ed11d536, type: 3}
+  m_Name: Square 3_Level
+  m_EditorClassIdentifier: 
+  Caption: Advance Wars
+  SceneName: Square 3
+  AutoStart: 1
+  EqualEffectInfluenceDuration: 1
+  TeamMarkersEnable: 1
+  Map: {fileID: 11400000, guid: 1cea914874e53d34ca97ec2ccbce1139, type: 2}
+  Turn: {fileID: 11400000, guid: b2c8ee6e8e92c1b4799fcc5298d16a90, type: 2}
+  Actions: {fileID: 11400000, guid: 0b33fec0f12a700488413f98070302ac, type: 2}
+  Health: {fileID: 11400000, guid: a05d1342c16a87149986afe8979a6a3d, type: 2}
+  BattleFinish: {fileID: 11400000, guid: 72f28bf3364850f438b9cafbb53558bc, type: 2}
+  Relationship: {fileID: 11400000, guid: 9cf446e3f746ba94894e079d1ab664fc, type: 2}
+  TileRuleIsItemAvailable: {fileID: 11400000, guid: 638f6a3d735f8e94f97ab437285e49d5,
+    type: 2}
+  MarkerAlly: {fileID: 0}
+  MarkerEnemy: {fileID: 0}
+  Camera:
+    StartPosition: {x: 9, y: 9, z: -9}
+    StartRotation: {x: 42, y: -45, z: 0}
+    Prefab: {fileID: 0}
+  Players:
+  - Name: Player 1
+    Team: {fileID: 11400000, guid: 2197e8c56b048db43a79bd78925a11e4, type: 2}
+    ControlledBy: 1
+  - Name: Player 2
+    Team: {fileID: 11400000, guid: dfa815e654a88ff41be234540032e413, type: 2}
+    ControlledBy: 1
+  OnBattleStartAction:
+    AddResources: 1
+    Resource: {fileID: 11400000, guid: 6386670e834846148978b63cfe740ac0, type: 2}
+    ResourceValue: 2000
+  OnTurnStartAction:
+    AddResources: 1
+    Resource: {fileID: 11400000, guid: 6386670e834846148978b63cfe740ac0, type: 2}
+    ResourceCountUnit: {fileID: 11400000, guid: ffa9f695a8f9dfd42a0d0cb64bc66d45,
+      type: 2}
+    ResourceValue: 3000
+    HealAllyInTile: 1
+    HealAllyInTileHealAllExcept: {fileID: 11400000, guid: 95e6e77083ae98841b6741f122d937ae,
+      type: 2}
+    HealAllyInTileHealer: {fileID: 11400000, guid: 95e6e77083ae98841b6741f122d937ae,
+      type: 2}
+    HealAllyInTeamAmount: 2
+    HealSelf: 1
+    HealSelfTarget: {fileID: 11400000, guid: 95e6e77083ae98841b6741f122d937ae, type: 2}
+    HealSelfBlocker: {fileID: 0}
+    HealSelfAmount: 2

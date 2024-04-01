@@ -1,0 +1,61 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 01a6fefb39159c0408eabee65b0414ea, type: 3}
+  m_Name: Gun
+  m_EditorClassIdentifier: 
+  Caption: Gun
+  Description: 
+  Stackable: 0
+  MaxStackCount: 1
+  Stats:
+  - Stat: {fileID: 11400000, guid: 8f1b65812657dba4099a3c04c03167c8, type: 2}
+    Value: 2
+  - Stat: {fileID: 11400000, guid: 0978eba42c0e52845ae0d64b1ee4f881, type: 2}
+    Value: 0.7
+  - Stat: {fileID: 11400000, guid: 29b9ebfd10d476b42a8637bb0ece8cf2, type: 2}
+    Value: 10
+  - Stat: {fileID: 11400000, guid: d769120a22c2dd94f85f0b0676fa4790, type: 2}
+    Value: 10
+  Tags:
+  - {fileID: 11400000, guid: 2dc495e4e7e4626429c5a571eef7c144, type: 2}
+  Selector: {fileID: 11400000, guid: 2507c9f8aab00624e99e6167b19cb280, type: 2}
+  ActionHandler: {fileID: 11400000, guid: 5c92a192771343244a9b01066c2e6677, type: 2}
+  AvailableCondition:
+    IsOwnerAloneInTile: 0
+    IsOwnerTileContains: 0
+    OwnerTileContains: {fileID: 0}
+    ItemCostTag: {fileID: 0}
+    ResourceTag: {fileID: 0}
+  Visual:
+    Model: {fileID: 1230062561640018, guid: 40fa1375366f76b45974fce5a9ff1404, type: 3}
+    IconSmall: {fileID: 21300000, guid: 9c0f00b6d76f2b744befa1fd5629132f, type: 3}
+    UseColor: 1
+    Color: {r: 0.8980392, g: 0.2901961, b: 0.40392157, a: 1}
+    TrajectoryMaterial: {fileID: 2100000, guid: 7906f73112619704b85e6b3886d821cd,
+      type: 2}
+    UseSelectorCustom: 0
+    SelectorCustom: {fileID: 0}
+    SelectorGenerated:
+      BorderSize: 0.1
+      ShowInner: 1
+      Inner: {fileID: 2100000, guid: 5f426bd8830748a4c897c3056ad65621, type: 2}
+      ShowBorder: 1
+      Border: {fileID: 2100000, guid: 5f426bd8830748a4c897c3056ad65621, type: 2}
+    UseAvailableCustom: 0
+    AvailableCustom: {fileID: 0}
+    AvailableGenerated:
+      BorderSize: 0.25
+      ShowInner: 1
+      Inner: {fileID: 2100000, guid: a8e8e9c97454c8f44baff716291e60fe, type: 2}
+      ShowBorder: 0
+      Border: {fileID: 0}
+    SelectorMaterial: {fileID: 0}

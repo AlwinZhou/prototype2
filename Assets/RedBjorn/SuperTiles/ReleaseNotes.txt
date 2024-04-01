@@ -1,0 +1,167 @@
+Version 1.4.7
+- Added prefab painting
+- Added mulitple prefab support in single TilePreset
+- Added Rect extensions
+- Fixed 2023 Unity version compatibility
+
+Version 1.4.6
+- Added new example level: Advance Wars (Square 3)
+- Added resources logic to SquadController
+- Added possibility to occupy one tile with several units
+- Added possibility to focus on selected unit by clicking profile icon
+- Added possibility to take control over unit during battle
+- Added unit custom collider support
+- Added unit sleep logic (how many turn unit can't make any action)
+- Added unit action
+    * On unit become dead (Rebirth or Killer could take control over dead unit)
+    * On unit change controller (Model change color)
+- Added new tag class - UnitTag and one predefine instance (Building)
+- Added item description
+- Added two new item TargetSelectors:
+    * SelfTargetSelector - owner selects himselft as a target
+    * OccupiedTileTargetSelector - owner selects units which are located in the same tile as owner unit
+- Added two new item ActionHandlers:
+    * DamageFromUnitHealth - owner deals damage according its health value and receives damage accoding victims' health value
+    * UnitCreateOwnerTeam - owner creates unit according its team value
+- Added item available condition:
+    * Check if necessary resources is available
+    * Check for the presence of certain units in the owner's tile
+    * Check lack of other units in the owner's tile
+- Added actions on battle start and on turn start
+- Added new game logic layer:
+    * Added possibility to add custom item available conditions (AvailableCondition)
+    * Added possibility to add custom battle actions (IBattleAction)
+    * Added possibility to add custom unit actions (IUnitAction)
+    * Added possibility to add custom squad controller actions (ISquadControllerAction)
+    * Added battle number providers (IIntProvider, IFloatProvider)
+    * Added unit selector game logic (IUnitSelector) and unit filter logic (IUnitFilter)
+    * Added unit condition (IUnitCondition)
+    * Added squad controller selector (ISquadControllerSelector)
+- Added resources UI (ResourceUI)
+- Added custom editors for UnitData, ItemData, UnitSpawnPoint classes
+- Fixed relationshop logic in case when owner's team is not set as an ally to itself
+- Changed UnitSpawnPoint sorting order during initial unit creation
+- Changed logic of unit selection
+    * Added new battle visual state - UnitSelectionState
+    * Units could be selected only in UnitSelectionState
+- Refactored UnitHealthEntity logic
+- Refactored CameraController MoveTo method logic
+- Refactored Input logic (InputController methods and InputSettings key representation)
+- Replaced turn start and turn finish actions from TurnPlayer to BattleEntity
+- Removed obsolete INodeUnit interface
+- Removed dead units from unit selector UI
+- Updated ScriptableObject serialized values
+
+Version 1.4.5
+- Added RelationshipTable (allies, enemies)
+- Added new BattleFinish condition (OneAllyTeamLeft)
+- Added TextSettings
+- Added Unit team marker
+- Added predefined TeamTags (from 3 to 10)
+- Added Rect extensions
+- Fixed existed TurnResolver logic
+- Changed count of players (from 2 to 4) at Square 1 example map
+- Replaced battle statuses from BattleSettings to TextSettings
+
+Version 1.4.4
+- Added new tile tag NotItemAvailable
+- Fixed NRE with spawnpoint center button 
+
+Version 1.4.3
+- Added new AI behaviour Universal
+- Added new item tags
+- Added random selection of AI units during a turn
+- Added new extension methods for List and Random classes
+- Fixed bug with invalid tile selection by RangeTargetSelector logic
+- Fixed bug when dead unit tried to perform action
+- Fixed Exception at MoveRange TurnResolver
+- Changed example levels gameplay balance
+- Updated ProtoTiles version to 1.1.1
+
+Version 1.4.2
+- Fixed StackOverflowException when Stop If Enemy Reachable mark is toggled at the Simple AI behavior
+
+Version 1.4.1
+- Added random weapon power spread
+- Added tag synonym to weapon and unit tooltips
+- Added health change UI
+
+Version 1.4.0
+- Added 2D-support (XY, ZY axis)
+- Added 2D Example
+- Added hexagonal pointy topped support
+- Changed SortingOrder of HealthBar sprites
+
+Version 1.3.1
+- Fixed missing BattleFinishHandler asset during level creation (LevelWindow, QuickStartWindow)
+
+Version 1.3.0
+- Added item animation support
+- Added loading from the selected level (Editor)
+
+Version 1.2.2
+- Added BattleFinishHandler to check different finish conditions
+- Added UI label when player and enemy turn begins
+- Added UI label when battle finishes
+- Added nickname to SquadControllerEntity
+- Added turn timer logic
+
+Version 1.2.1
+- Added option to hide health bar of dead unit
+- Added prefix to Log output
+- Added BinarySerializer helper class
+- Added SerializableVector3 class
+- Added AI id offset.
+- Added Battle Pause/Unpause methods
+- Added action null-checks to existed ActionRule types
+- Added remove loading screen logic
+- Added game creator and load types
+- Added PlayerEntity reference to BaseAction
+- Fixed the exception which occurs when RangeTargetViewSelector haven't got approporiate count of pre-spawned selectable tiles
+- Fixed the bug when dead unit blocks movement
+- Fixed autosave when incorrect battle state could be saved
+- Renamed IAction -> BaseAction
+- Refactored Battle debug text
+- Refactored MapEntity.Area method
+- Removed redundant BattleView states
+
+Version 1.2.0
+- Added lightening for item available tiles
+- Added customisation for tile lightening
+- Added Save/Load/Delete savefile logic
+- Added auto-save support
+- Added delay before the game will start
+- Added easy-upgrade item method (for items created in version below 1.2.0)
+- Added in-game menu UI
+- Added default creator for
+    * Level (ActionRules, TurnResolver)
+    * Item (ActionHandler, TargetSelector)
+    * Effect (EffectHandler)
+    * HealthRules (Condition, ValueConverter)
+- Renamed:
+    * BattleEntity.CompletedItems -> BattleEntity.TurnItems
+    * BattleEntity.TimelineUnits -> BattleEntity.UnitsTimeline
+    * MapEntity.CreateCell -> MapEntity.TileCreate
+- Replaced create game logic from LevelEntity to GameEntity
+
+Version 1.1.0
+- Added Effect support
+- Added HealthRule support
+- Added ItemTag support
+- Added Effect add/remove logic to all existed Item ActionHandlers
+- Added new Level ActionRules types: HitAndRun, ActionPointsTwo
+- Changed Example level (Level Hex 2):
+    * Added 2 new guns (Flamethrower, OilJar)
+    * Added 4 new effects (Bleeding, Oil, Slowness, Weakness)
+    * Added 1 health rule (if unit has Oil effect than item with Flame tag will make double damage)
+- Fixed a bug with BulletView min speed logic
+- Renamed ActionRules:
+    * CommomRules -> HitAfterRun
+    * NoMoveAfterItem -> ActionPointsCustom
+- Renamed TurnSequence -> TimelineUnits
+
+Version 1.0.1
+- Fixed bug with wrong editor ui display when not common ui scale is used
+
+Version 1.0.0
+- Initial release

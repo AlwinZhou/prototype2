@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ecad509d8eb3aca45aadfef2ba0985dc, type: 3}
+  m_Name: InputSettings
+  m_EditorClassIdentifier: 
+  WorldClick:
+    Main: 323
+    Alternative: 0
+  TurnComplete:
+    Main: 32
+    Alternative: 0
+  CameraClockwise:
+    Main: 101
+    Alternative: 0
+  CameraCounterClockwise:
+    Main: 113
+    Alternative: 0
+  Menu:
+    Main: 27
+    Alternative: 0
+  DebugUi:
+    Main: 287
+    Alternative: 0
+  Submit:
+    Main: 32
+    Alternative: 13
+  Cancel:
+    Main: 324
+    Alternative: 0
