@@ -40,12 +40,11 @@ MonoBehaviour:
     IconSmall: {fileID: 21300000, guid: 02f249e849bf353459efa5cc0be6f764, type: 3}
     UseColor: 1
     Color: {r: 1, g: 0.5294118, b: 0, a: 1}
-    TrajectoryMaterial: {fileID: 2100000, guid: 7906f73112619704b85e6b3886d821cd,
-      type: 2}
+    TrajectoryMaterial: {fileID: 2100000, guid: 7906f73112619704b85e6b3886d821cd, type: 2}
     UseSelectorCustom: 0
     SelectorCustom: {fileID: 0}
     SelectorGenerated:
-      BorderSize: 0.25
+      BorderSize: 0.1
       ShowInner: 1
       Inner: {fileID: 2100000, guid: 206028d1ed9579044956d7b38e593e0f, type: 2}
       ShowBorder: 0

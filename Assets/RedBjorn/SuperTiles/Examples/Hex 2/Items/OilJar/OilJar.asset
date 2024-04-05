@@ -44,8 +44,7 @@ MonoBehaviour:
     IconSmall: {fileID: 21300000, guid: 7ebb90861e79ace438ea5e51856e6f52, type: 3}
     UseColor: 1
     Color: {r: 0.3018868, g: 0.10146616, b: 0.02990388, a: 1}
-    TrajectoryMaterial: {fileID: 2100000, guid: 7906f73112619704b85e6b3886d821cd,
-      type: 2}
+    TrajectoryMaterial: {fileID: 2100000, guid: 7906f73112619704b85e6b3886d821cd, type: 2}
     UseSelectorCustom: 0
     SelectorCustom: {fileID: 0}
     SelectorGenerated:

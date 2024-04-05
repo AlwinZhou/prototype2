@@ -1,0 +1,56 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 093537d8dada51e4a9b3aff1ed11d536, type: 3}
+  m_Name: Level 1_Level 1
+  m_EditorClassIdentifier: 
+  Caption: Level 1
+  SceneName: Level 1
+  AutoStart: 1
+  EqualEffectInfluenceDuration: 1
+  TeamMarkersEnable: 1
+  Map: {fileID: 11400000, guid: 14ccb0bf63164ff4d99e54ff86fd4f12, type: 2}
+  Turn: {fileID: 11400000, guid: 71c485747e56aa74cacbf55e8e89c643, type: 2}
+  Actions: {fileID: 11400000, guid: 3d3677758d58ac143ab410aaaef6a38d, type: 2}
+  Health: {fileID: 11400000, guid: af44570a2b9a75046bd37fdd626aa8f1, type: 2}
+  BattleFinish: {fileID: 11400000, guid: 11fc105c57a26734daedc82748fd4a67, type: 2}
+  Relationship: {fileID: 11400000, guid: d9e72f79aed38ff449575f3f429bc479, type: 2}
+  TileRuleIsItemAvailable: {fileID: 11400000, guid: 638f6a3d735f8e94f97ab437285e49d5, type: 2}
+  MarkerAlly: {fileID: 0}
+  MarkerEnemy: {fileID: 0}
+  Camera:
+    StartPosition: {x: 0, y: 0, z: 0}
+    StartRotation: {x: 0, y: 0, z: 0}
+    Prefab: {fileID: 0}
+  Players:
+  - Name: Player
+    Team: {fileID: 11400000, guid: 2197e8c56b048db43a79bd78925a11e4, type: 2}
+    ControlledBy: 1
+  - Name: Ai
+    Team: {fileID: 11400000, guid: dfa815e654a88ff41be234540032e413, type: 2}
+    ControlledBy: 2
+  OnBattleStartAction:
+    AddResources: 0
+    Resource: {fileID: 0}
+    ResourceValue: 0
+  OnTurnStartAction:
+    AddResources: 0
+    Resource: {fileID: 0}
+    ResourceCountUnit: {fileID: 0}
+    ResourceValue: 0
+    HealAllyInTile: 0
+    HealAllyInTileHealAllExcept: {fileID: 0}
+    HealAllyInTileHealer: {fileID: 0}
+    HealAllyInTeamAmount: 0
+    HealSelf: 0
+    HealSelfTarget: {fileID: 0}
+    HealSelfBlocker: {fileID: 0}
+    HealSelfAmount: 0

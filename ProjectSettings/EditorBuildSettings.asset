@@ -14,4 +14,28 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/RedBjorn/SuperTiles/Examples/Square 2/Square 2.unity
     guid: 160bfba2720c2c1438925d53c575ab04
+  - enabled: 1
+    path: Assets/RedBjorn/SuperTiles/Scenes/Menu.unity
+    guid: 42b6ffeb03c72c0479761b2c1c981cb4
+  - enabled: 1
+    path: Assets/RedBjorn/SuperTiles/Scenes/Game.unity
+    guid: 895a98f65cad04548b530a18efef29b1
+  - enabled: 1
+    path: Assets/RedBjorn/SuperTiles/Scenes/Loading.unity
+    guid: 452c703654e058e478668b0b6598c797
+  - enabled: 1
+    path: Assets/RedBjorn/SuperTiles/Examples/Hex 1/Hex 1.unity
+    guid: 95f9ef64f3f583f44940bf5089e95359
+  - enabled: 1
+    path: Assets/RedBjorn/SuperTiles/Examples/Hex 2/Hex 2.unity
+    guid: cad636a1ac9ced54e92538bf12ec3a00
+  - enabled: 1
+    path: Assets/RedBjorn/SuperTiles/Examples/Hex 3/Hex 3.unity
+    guid: 23b80fbdc06e9cf4e9a2df5fba5ef935
+  - enabled: 1
+    path: Assets/RedBjorn/SuperTiles/Examples/Square 1/Square 1.unity
+    guid: c8e73f969981ed7438f8ff183ebd7bc4
+  - enabled: 1
+    path: Assets/RedBjorn/SuperTiles/Examples/Square 3/Square 3.unity
+    guid: d2851bb6f4477c549986b0afc8b60d63
   m_configObjects: {}

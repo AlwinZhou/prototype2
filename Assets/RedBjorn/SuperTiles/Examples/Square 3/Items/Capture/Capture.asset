@@ -26,8 +26,7 @@ MonoBehaviour:
   AvailableCondition:
     IsOwnerAloneInTile: 0
     IsOwnerTileContains: 1
-    OwnerTileContains: {fileID: 11400000, guid: ffa9f695a8f9dfd42a0d0cb64bc66d45,
-      type: 2}
+    OwnerTileContains: {fileID: 11400000, guid: ffa9f695a8f9dfd42a0d0cb64bc66d45, type: 2}
     ItemCostTag: {fileID: 0}
     ResourceTag: {fileID: 0}
   Visual:
@@ -35,11 +34,11 @@ MonoBehaviour:
     IconSmall: {fileID: 21300000, guid: f1ff7251e0ddc554f8e11c73ba1d53c4, type: 3}
     UseColor: 1
     Color: {r: 0, g: 1, b: 0.839838, a: 1}
-    TrajectoryMaterial: {fileID: 0}
+    TrajectoryMaterial: {fileID: 2100000, guid: 7906f73112619704b85e6b3886d821cd, type: 2}
     UseSelectorCustom: 0
     SelectorCustom: {fileID: 0}
     SelectorGenerated:
-      BorderSize: 0
+      BorderSize: 0.1
       ShowInner: 1
       Inner: {fileID: 2100000, guid: 0457538762bc10f47a9702e955b5f894, type: 2}
       ShowBorder: 1
@@ -48,8 +47,8 @@ MonoBehaviour:
     AvailableCustom: {fileID: 0}
     AvailableGenerated:
       BorderSize: 0.25
-      ShowInner: 0
-      Inner: {fileID: 2100000, guid: 81aa1ab7b4192ae41b8e6be71821d6bf, type: 2}
+      ShowInner: 1
+      Inner: {fileID: 2100000, guid: 9c98ee32a656cf64e883a2be18d6c3fa, type: 2}
       ShowBorder: 0
       Border: {fileID: 0}
     SelectorMaterial: {fileID: 0}
