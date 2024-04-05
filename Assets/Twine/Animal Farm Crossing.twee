@@ -1,0 +1,27 @@
+:: StoryTitle
+Animal Farm Crossing
+
+
+:: StoryData
+{
+  "ifid": "242FE801-CF96-4CB9-BE3D-3CD5F1FE6FF8",
+  "format": "Harlowe",
+  "format-version": "3.3.5",
+  "start": "Untitled Passage",
+  "zoom": 1
+}
+
+
+:: Chad {"position":"650,125","size":"100,100"}
+
+
+
+:: Grad School {"position":"650,275","size":"100,100"}
+
+
+
+:: Untitled Passage {"position":"475,200","size":"100,100"}
+''Unity''
+
+[[Greg->Grad School]]
+[[Chad]]
