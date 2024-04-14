@@ -23,13 +23,5 @@ MonoBehaviour:
   CellMaterial: {fileID: 2100000, guid: 48097669abeecd047ac9c7d0c9302e74, type: 2}
   Rules:
     IsMovable: {fileID: 11400000, guid: ce303506d48d89d44abd552e9c465edb, type: 2}
-  Presets:
-  - Type: Ground
-    Id: 95f3f37b1594a9248a094fda4c9ce83a
-    MapColor: {r: 1, g: 1, b: 1, a: 0.5}
-    Prefab: {fileID: 0}
-    GridOffset: 0
-    Tags: []
-    Prefabs:
-    - {fileID: 7362454568944323520, guid: 8cd36fa15214dd34da7fe2ee9e436ff0, type: 3}
+  Presets: []
   Tiles: []
