@@ -7421,17 +7421,6 @@ MonoBehaviour:
     - 0
     - 0
     - 0
-  - TilePos: {x: -39, y: 0, z: -12}
-    Id: 24abad920a4c1dc42ab1ab70cb92594f
-    PrefabIndex: 0
-    MovableArea: 12
-    SideHeight:
-    - 0
-    - 0
-    - 0
-    - 0
-    - 0
-    - 0
   - TilePos: {x: 28, y: 0, z: -12}
     Id: 1cb5999fe1706ff43aabe46f5db3c31a
     PrefabIndex: 0
@@ -7655,7 +7644,7 @@ MonoBehaviour:
   - TilePos: {x: 108, y: 0, z: -224}
     Id: 17c38ea09507fb146beba99f66435b75
     PrefabIndex: 0
-    MovableArea: 13
+    MovableArea: 12
     SideHeight:
     - 0
     - 0
@@ -7754,7 +7743,7 @@ MonoBehaviour:
   - TilePos: {x: -9, y: 0, z: -75}
     Id: 17c38ea09507fb146beba99f66435b75
     PrefabIndex: 0
-    MovableArea: 14
+    MovableArea: 13
     SideHeight:
     - 0
     - 0
@@ -8183,7 +8172,7 @@ MonoBehaviour:
   - TilePos: {x: 28, y: 0, z: -53}
     Id: 17c38ea09507fb146beba99f66435b75
     PrefabIndex: 1
-    MovableArea: 15
+    MovableArea: 14
     SideHeight:
     - 0
     - 0
@@ -8447,7 +8436,7 @@ MonoBehaviour:
   - TilePos: {x: -18, y: 0, z: -31}
     Id: 17c38ea09507fb146beba99f66435b75
     PrefabIndex: 1
-    MovableArea: 16
+    MovableArea: 15
     SideHeight:
     - 0
     - 0
@@ -9239,7 +9228,7 @@ MonoBehaviour:
   - TilePos: {x: -24, y: 0, z: 22}
     Id: 17c38ea09507fb146beba99f66435b75
     PrefabIndex: 1
-    MovableArea: 17
+    MovableArea: 16
     SideHeight:
     - 0
     - 0
@@ -9349,7 +9338,7 @@ MonoBehaviour:
   - TilePos: {x: -17, y: 0, z: 26}
     Id: 17c38ea09507fb146beba99f66435b75
     PrefabIndex: 1
-    MovableArea: 18
+    MovableArea: 17
     SideHeight:
     - 0
     - 0
@@ -9943,7 +9932,7 @@ MonoBehaviour:
   - TilePos: {x: -58, y: 0, z: 13}
     Id: 1cb5999fe1706ff43aabe46f5db3c31a
     PrefabIndex: 0
-    MovableArea: 19
+    MovableArea: 18
     SideHeight:
     - 0
     - 0
@@ -10251,7 +10240,7 @@ MonoBehaviour:
   - TilePos: {x: 31, y: 0, z: -59}
     Id: 1cb5999fe1706ff43aabe46f5db3c31a
     PrefabIndex: 0
-    MovableArea: 20
+    MovableArea: 19
     SideHeight:
     - 0
     - 0
@@ -10658,7 +10647,7 @@ MonoBehaviour:
   - TilePos: {x: -37, y: 0, z: -44}
     Id: 1cb5999fe1706ff43aabe46f5db3c31a
     PrefabIndex: 0
-    MovableArea: 21
+    MovableArea: 20
     SideHeight:
     - 0
     - 0
@@ -10845,7 +10834,7 @@ MonoBehaviour:
   - TilePos: {x: -30, y: 0, z: 52}
     Id: 1cb5999fe1706ff43aabe46f5db3c31a
     PrefabIndex: 0
-    MovableArea: 22
+    MovableArea: 21
     SideHeight:
     - 0
     - 0
@@ -11692,7 +11681,7 @@ MonoBehaviour:
   - TilePos: {x: -7, y: 0, z: -47}
     Id: 1cb5999fe1706ff43aabe46f5db3c31a
     PrefabIndex: 0
-    MovableArea: 23
+    MovableArea: 22
     SideHeight:
     - 0
     - 0
@@ -11802,7 +11791,7 @@ MonoBehaviour:
   - TilePos: {x: 58, y: 0, z: 23}
     Id: 1cb5999fe1706ff43aabe46f5db3c31a
     PrefabIndex: 0
-    MovableArea: 24
+    MovableArea: 23
     SideHeight:
     - 0
     - 0
@@ -13155,7 +13144,7 @@ MonoBehaviour:
   - TilePos: {x: 30, y: 0, z: 7}
     Id: 1cb5999fe1706ff43aabe46f5db3c31a
     PrefabIndex: 1
-    MovableArea: 25
+    MovableArea: 24
     SideHeight:
     - 0
     - 0
