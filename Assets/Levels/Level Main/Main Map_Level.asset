@@ -27,7 +27,7 @@ MonoBehaviour:
   MarkerAlly: {fileID: 0}
   MarkerEnemy: {fileID: 0}
   Camera:
-    StartPosition: {x: 0, y: 10, z: -6}
+    StartPosition: {x: -12, y: 10, z: 1.92}
     StartRotation: {x: 0, y: 0, z: 0}
     Prefab: {fileID: 0}
   Players:

@@ -10,11 +10,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 29f9593384c2a3c42b5207762172c474, type: 3}
-  m_Name: TestUnit
+  m_Name: Unit
   m_EditorClassIdentifier: 
-  Avatar: {fileID: 21300000, guid: cd7c2789851db4441b6a811ac5397c3b, type: 3}
-  Model: {fileID: 919132149155446097, guid: e5ff390191c3a244189f711eeb62860e, type: 3}
-  Collider: {fileID: 919132149155446097, guid: e5ff390191c3a244189f711eeb62860e, type: 3}
+  Avatar: {fileID: 0}
+  Model: {fileID: 0}
+  Collider: {fileID: 0}
   UiHolder: {x: 0, y: 0, z: 0}
   Tags: []
   Stats:
