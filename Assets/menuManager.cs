@@ -14,7 +14,7 @@ public class menuManager : MonoBehaviour
 
     public void playWorldMap()
     {
-        SceneManager.LoadScene("Assets/Scenes/WorldMap.unity");
+        SceneManager.LoadScene(11);
     }
 
     public void OpenMusicManager()

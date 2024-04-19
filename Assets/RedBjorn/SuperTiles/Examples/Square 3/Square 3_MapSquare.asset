@@ -27,36 +27,36 @@ MonoBehaviour:
   - Type: Ground
     Id: a5e79197e8201db41bb568e8440df676
     MapColor: {r: 0.44805026, g: 1, b: 0, a: 0.5}
-    Prefab: {fileID: 7362454568944323520, guid: a2a2b8532921fa34980e9dd9aa6cd7f2,
-      type: 3}
+    Prefab: {fileID: 0}
     GridOffset: 0
     Tags: []
-    Prefabs: []
+    Prefabs:
+    - {fileID: 7362454568944323520, guid: a2a2b8532921fa34980e9dd9aa6cd7f2, type: 3}
   - Type: Water
     Id: c0a75dbf6a476824993daccb8da1de35
     MapColor: {r: 0, g: 0.93945074, b: 1, a: 0.5}
-    Prefab: {fileID: 7362454568944323520, guid: 36b2112824c59a84fa933063f009ce5e,
-      type: 3}
+    Prefab: {fileID: 0}
     GridOffset: -0.1
     Tags:
     - {fileID: 11400000, guid: 25b8c40cae2c9684985e9ebdc6331b8e, type: 2}
-    Prefabs: []
+    Prefabs:
+    - {fileID: 7362454568944323520, guid: 36b2112824c59a84fa933063f009ce5e, type: 3}
   - Type: Road
     Id: 300c0a8c38a4c1642ae84106c7c4bd6a
     MapColor: {r: 0.4056604, g: 0.36165008, b: 0.36165008, a: 0.5}
-    Prefab: {fileID: 7362454568944323520, guid: 22ee0b3a06f128846923638beaa5b39b,
-      type: 3}
+    Prefab: {fileID: 0}
     GridOffset: 0
     Tags: []
-    Prefabs: []
+    Prefabs:
+    - {fileID: 7362454568944323520, guid: 22ee0b3a06f128846923638beaa5b39b, type: 3}
   - Type: Base
     Id: 4431131da3e1510428623f70acc344f1
     MapColor: {r: 1, g: 1, b: 1, a: 0.5}
-    Prefab: {fileID: 7362454568944323520, guid: cb5126ee676607b48adf19e23722bd82,
-      type: 3}
+    Prefab: {fileID: 0}
     GridOffset: 0
     Tags: []
-    Prefabs: []
+    Prefabs:
+    - {fileID: 7362454568944323520, guid: cb5126ee676607b48adf19e23722bd82, type: 3}
   Tiles:
   - TilePos: {x: 0, y: 0, z: 0}
     Id: c0a75dbf6a476824993daccb8da1de35

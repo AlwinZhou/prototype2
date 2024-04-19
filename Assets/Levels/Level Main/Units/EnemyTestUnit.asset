@@ -13,21 +13,22 @@ MonoBehaviour:
   m_Name: EnemyTestUnit
   m_EditorClassIdentifier: 
   Avatar: {fileID: 21300000, guid: d3300f2bc1172464ab76303e8f4e0244, type: 3}
-  Model: {fileID: 1597888281241290, guid: f1644b1801ba3044ca2df04b25b0ed4b, type: 3}
-  Collider: {fileID: 1597888281241290, guid: f1644b1801ba3044ca2df04b25b0ed4b, type: 3}
+  Model: {fileID: 1597888281241290, guid: 24d77334a72338a4ca726c7c88474db6, type: 3}
+  Collider: {fileID: 0}
   UiHolder: {x: 0, y: 0, z: 0}
   Tags: []
   Stats:
   - Stat: {fileID: 11400000, guid: 87e0f3529cdb3f84fab327d1c0f20af5, type: 2}
-    Value: 100
+    Value: 200
   - Stat: {fileID: 11400000, guid: 93ecb439b04016e44811e288dc6e8bea, type: 2}
-    Value: 4
+    Value: 6
   - Stat: {fileID: 11400000, guid: e8f990bc728b1ae4189b905900a04eb4, type: 2}
-    Value: 3
+    Value: 5
   - Stat: {fileID: 11400000, guid: cab333cf85f7d474b934c22362454af7, type: 2}
     Value: 360
   DefaultItems:
-  - {fileID: 11400000, guid: ea7f67a4de9feeb478779e3b12841e0c, type: 2}
+  - {fileID: 11400000, guid: 989f79965c09f814da6ab6e8065fcd83, type: 2}
+  - {fileID: 11400000, guid: 9386e61017af8694cb86f9d5caaf22eb, type: 2}
   HealthAction:
     HaveHealthCustomPrefab: 0
     HealthCustomPrefab: {fileID: 0}

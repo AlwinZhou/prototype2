@@ -20,15 +20,15 @@ MonoBehaviour:
   Map: {fileID: 11400000, guid: 14ccb0bf63164ff4d99e54ff86fd4f12, type: 2}
   Turn: {fileID: 11400000, guid: 71c485747e56aa74cacbf55e8e89c643, type: 2}
   Actions: {fileID: 11400000, guid: 3d3677758d58ac143ab410aaaef6a38d, type: 2}
-  Health: {fileID: 11400000, guid: af44570a2b9a75046bd37fdd626aa8f1, type: 2}
-  BattleFinish: {fileID: 11400000, guid: 11fc105c57a26734daedc82748fd4a67, type: 2}
+  Health: {fileID: 0}
+  BattleFinish: {fileID: 0}
   Relationship: {fileID: 11400000, guid: d9e72f79aed38ff449575f3f429bc479, type: 2}
   TileRuleIsItemAvailable: {fileID: 11400000, guid: 638f6a3d735f8e94f97ab437285e49d5, type: 2}
   MarkerAlly: {fileID: 0}
   MarkerEnemy: {fileID: 0}
   Camera:
-    StartPosition: {x: 0, y: 0, z: 0}
-    StartRotation: {x: 0, y: 0, z: 0}
+    StartPosition: {x: 0, y: 10, z: -8}
+    StartRotation: {x: 30, y: 0, z: 0}
     Prefab: {fileID: 0}
   Players:
   - Name: Player
