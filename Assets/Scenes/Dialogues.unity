@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657844, g: 0.49641222, b: 0.57481676, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -218,7 +218,6 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 631451432}
-  - {fileID: 396283029}
   - {fileID: 1273022486}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -382,17 +381,17 @@ RectTransform:
   m_GameObject: {fileID: 396283028}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 13.432171, y: 2.807621, z: 0.46948594}
+  m_LocalScale: {x: 1.0118653, y: 0.3876866, z: 0.46948594}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1170459161}
   - {fileID: 1092147949}
   - {fileID: 1524528787}
-  m_Father: {fileID: 148783410}
+  m_Father: {fileID: 631451432}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 13, y: -226}
+  m_AnchoredPosition: {x: 0.3013277, y: -30.51648}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &396283030
@@ -460,9 +459,10 @@ RectTransform:
   m_GameObject: {fileID: 631451431}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 13.274663, y: 7.2419868, z: 1}
+  m_LocalScale: {x: 8.537254, y: 4.3060856, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 396283029}
   m_Father: {fileID: 148783410}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
@@ -1098,7 +1098,7 @@ AudioSource:
   m_GameObject: {fileID: 1365857170}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 24300002, guid: 01e48ca2d7ac6d9418d5d4279e44da50, type: 2}
+  OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: d7c6209930f0e4f4fb861dda5366baf0, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
