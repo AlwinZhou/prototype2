@@ -19,7 +19,7 @@ MonoBehaviour:
   Tags: []
   Stats:
   - Stat: {fileID: 11400000, guid: 87e0f3529cdb3f84fab327d1c0f20af5, type: 2}
-    Value: 200
+    Value: 12
   - Stat: {fileID: 11400000, guid: 93ecb439b04016e44811e288dc6e8bea, type: 2}
     Value: 6
   - Stat: {fileID: 11400000, guid: e8f990bc728b1ae4189b905900a04eb4, type: 2}
@@ -27,8 +27,9 @@ MonoBehaviour:
   - Stat: {fileID: 11400000, guid: cab333cf85f7d474b934c22362454af7, type: 2}
     Value: 360
   DefaultItems:
-  - {fileID: 11400000, guid: 989f79965c09f814da6ab6e8065fcd83, type: 2}
   - {fileID: 11400000, guid: 9386e61017af8694cb86f9d5caaf22eb, type: 2}
+  - {fileID: 11400000, guid: ea7f67a4de9feeb478779e3b12841e0c, type: 2}
+  - {fileID: 11400000, guid: d72c1127a79dac04da2ce1d969d1bb17, type: 2}
   HealthAction:
     HaveHealthCustomPrefab: 0
     HealthCustomPrefab: {fileID: 0}
