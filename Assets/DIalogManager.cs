@@ -3,14 +3,18 @@ using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
+
 public class DIalogManager : MonoBehaviour
 {
     public string[] texts;
     [SerializeField]
     private TextMeshProUGUI textMeshPro;
     private int currentIndex = 0;
-    public  AudioClip[] audioClips = new AudioClip[4];
-
+    public AudioClip[] audioClips = new AudioClip[4];
+    public AudioSource audio;
+    public Sprite[] images = new Sprite[4];
+    public Image imageDisplay;
     // Start is called before the first frame update
     void Start()
     {
@@ -22,25 +26,33 @@ public class DIalogManager : MonoBehaviour
         if (texts.Length > 0)
         {
             textMeshPro.text = texts[0];
+            imageDisplay.sprite = images[0];
+            AudioSource.PlayClipAtPoint(audioClips[0], transform.position);
         }
 
-        
 
-       
+
+        // images[0] = Resources.Load<Sprite>("Assets/pics/pigGun.png");
+        //   images[1] = Resources.Load<Sprite>("Assets/pics/lionGun.png");
+        // images[2] = Resources.Load<Sprite>("Assets/pics/pigGun.png");
+        //images[3] = Resources.Load<Sprite>("Assets/pics/lionGun.png");
+
+
     }
-
     public void nextdialog()
     {
-        if (currentIndex < 4)
+        if (currentIndex < 3)
         {
             textMeshPro.text = texts[currentIndex + 1];
-            Debug.Log(","+ texts.Length);
+            audio.clip = audioClips[currentIndex + 1];
+            audio.Play();
+            imageDisplay.sprite = images[currentIndex + 1];
             currentIndex++;
         }
-        if (currentIndex == 4)
+        else
         {
             Debug.Log("enter else");
-            SceneManager.LoadScene(11);
+            SceneManager.LoadScene("Assets/Levels/Level Main/Main Map.unity");
         }
     }
 }

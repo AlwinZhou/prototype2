@@ -14,7 +14,7 @@ public class menuManager : MonoBehaviour
 
     public void playWorldMap()
     {
-        SceneManager.LoadScene(11);
+        SceneManager.LoadScene("Assets/Scenes/Dialogues.unity");
     }
 
     public void OpenMusicManager()
