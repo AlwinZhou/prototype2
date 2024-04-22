@@ -28,7 +28,7 @@ MonoBehaviour:
   MarkerEnemy: {fileID: 0}
   Camera:
     StartPosition: {x: -8, y: 5, z: -5}
-    StartRotation: {x: 30, y: 0, z: 0}
+    StartRotation: {x: 30, y: 90, z: 0}
     Prefab: {fileID: 0}
   Players:
   - Name: Player

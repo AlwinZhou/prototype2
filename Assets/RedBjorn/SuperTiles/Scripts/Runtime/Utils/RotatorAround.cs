@@ -8,7 +8,7 @@ namespace RedBjorn.SuperTiles.Utils
         public enum Type { Linear, Square, Cubic, RootSqrt }
 
         public Type RotateType;
-        public float TargetAngle = 90f;
+        public float TargetAngle = 0f;
         public float Speed = 10f;
         Coroutine RotateCoroutine;
 
