@@ -18,7 +18,7 @@ MonoBehaviour:
   MaxStackCount: 1
   Stats:
   - Stat: {fileID: 11400000, guid: 8f1b65812657dba4099a3c04c03167c8, type: 2}
-    Value: 2
+    Value: 3
   - Stat: {fileID: 11400000, guid: 0978eba42c0e52845ae0d64b1ee4f881, type: 2}
     Value: 0.7
   - Stat: {fileID: 11400000, guid: 29b9ebfd10d476b42a8637bb0ece8cf2, type: 2}

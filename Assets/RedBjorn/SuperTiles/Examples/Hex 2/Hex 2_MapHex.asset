@@ -27,43 +27,48 @@ MonoBehaviour:
   - Type: Grass
     Id: 9264c6e95501d604c83d7516ca036ca5
     MapColor: {r: 0.25451612, g: 1, b: 0, a: 0.5}
-    Prefab: {fileID: 1272180480792470, guid: dcd1ba0c1d3680c45b8cdb9f7601ff17, type: 3}
+    Prefab: {fileID: 0}
     GridOffset: 0
     Tags: []
-    Prefabs: []
+    Prefabs:
+    - {fileID: 1272180480792470, guid: dcd1ba0c1d3680c45b8cdb9f7601ff17, type: 3}
   - Type: Field
     Id: bec9ff0c72ff8ef4e83a5ad4e960289b
     MapColor: {r: 0.8584906, g: 0.6939482, b: 0.28751338, a: 0.5}
-    Prefab: {fileID: 1272180480792470, guid: 827bf880ce2bc3846b112c3cec06e9c9, type: 3}
+    Prefab: {fileID: 0}
     GridOffset: 0
     Tags: []
-    Prefabs: []
+    Prefabs:
+    - {fileID: 1272180480792470, guid: 827bf880ce2bc3846b112c3cec06e9c9, type: 3}
   - Type: Forest
     Id: ae1f609d4b2fbd54695d42ec81afd972
     MapColor: {r: 0.22834978, g: 0.4339623, b: 0.17399432, a: 0.5}
-    Prefab: {fileID: 1272180480792470, guid: effef0fed97689c40ac3bae168b2ca09, type: 3}
+    Prefab: {fileID: 0}
     GridOffset: 0
     Tags:
     - {fileID: 11400000, guid: 25b8c40cae2c9684985e9ebdc6331b8e, type: 2}
     - {fileID: 11400000, guid: 196faf469e52d404f97d02638d188138, type: 2}
-    Prefabs: []
+    Prefabs:
+    - {fileID: 1272180480792470, guid: effef0fed97689c40ac3bae168b2ca09, type: 3}
   - Type: Mountain
     Id: 8f53ffdc0876c5b4b83daffadd46f757
     MapColor: {r: 0.4433962, g: 0.3513335, b: 0.20287469, a: 0.5}
-    Prefab: {fileID: 1253730174499678, guid: 4414acc017e47ae4ab930f66d96e0e3f, type: 3}
+    Prefab: {fileID: 0}
     GridOffset: 0
     Tags:
     - {fileID: 11400000, guid: 25b8c40cae2c9684985e9ebdc6331b8e, type: 2}
     - {fileID: 11400000, guid: 196faf469e52d404f97d02638d188138, type: 2}
-    Prefabs: []
+    Prefabs:
+    - {fileID: 1253730174499678, guid: 4414acc017e47ae4ab930f66d96e0e3f, type: 3}
   - Type: Water
     Id: f521c05322c36d34f911400094f539f9
     MapColor: {r: 0, g: 1, b: 0.7890246, a: 0.5}
-    Prefab: {fileID: 1253730174499678, guid: 270842694af178248a5a9231257860a1, type: 3}
+    Prefab: {fileID: 0}
     GridOffset: -0.39
     Tags:
     - {fileID: 11400000, guid: 25b8c40cae2c9684985e9ebdc6331b8e, type: 2}
-    Prefabs: []
+    Prefabs:
+    - {fileID: 1253730174499678, guid: 270842694af178248a5a9231257860a1, type: 3}
   - Type: Ocean
     Id: ec918ba310584864a8ee6b6339bc5575
     MapColor: {r: 0, g: 0.28991652, b: 1, a: 0.5}
@@ -72,7 +77,8 @@ MonoBehaviour:
     Tags:
     - {fileID: 11400000, guid: 25b8c40cae2c9684985e9ebdc6331b8e, type: 2}
     - {fileID: 11400000, guid: 196faf469e52d404f97d02638d188138, type: 2}
-    Prefabs: []
+    Prefabs:
+    - {fileID: 0}
   Tiles:
   - TilePos: {x: 0, y: 0, z: 0}
     Id: 9264c6e95501d604c83d7516ca036ca5

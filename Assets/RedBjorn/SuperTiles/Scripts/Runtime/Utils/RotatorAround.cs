@@ -25,6 +25,10 @@ namespace RedBjorn.SuperTiles.Utils
                 RotateCounterClockwise(InputController.CameraGroundPosition(Plane));
             }
         }
+        public bool GetGameHotkeyDown(KeyCode key)
+        {
+            return Input.GetKeyDown(key);
+        }
 
         void OnDisable()
         {

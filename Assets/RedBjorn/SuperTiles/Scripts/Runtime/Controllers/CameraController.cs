@@ -128,22 +128,22 @@ namespace RedBjorn.SuperTiles
         {
             if (Input.GetKey(KeyCode.UpArrow))
             {
-                transform.position += Vector3.right * Time.deltaTime * speed;
+                transform.position += Vector3.forward * Time.deltaTime * speed;
             }
 
             if (Input.GetKey(KeyCode.DownArrow))
             {
-                transform.position += Vector3.right * -1 * Time.deltaTime * speed;
+                transform.position += Vector3.forward * -1 * Time.deltaTime * speed;
             }
 
             if (Input.GetKey(KeyCode.LeftArrow))
             {
-                transform.position += Vector3.forward * Time.deltaTime * speed;
+                transform.position += Vector3.right * -1 * Time.deltaTime * speed;
             }
 
             if (Input.GetKey(KeyCode.RightArrow))
             {
-                transform.position += Vector3.forward * -1 * Time.deltaTime * speed;
+                transform.position += Vector3.right  * Time.deltaTime * speed;
             }
 
         }

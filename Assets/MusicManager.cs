@@ -11,7 +11,14 @@ public class MusicManager : MonoBehaviour
 
     [SerializeField]
     private Scrollbar musicSlider;
-
+    void Start()
+    {
+        SetMusicVolume(0.5f);
+    }
+    private void SetMusicVolume(float volume)
+    {
+        audioMixer.SetFloat("music", Mathf.Log10(volume) * 22 + 8);
+    }
     public void musicSetting()
     {
         float volume = musicSlider.value;

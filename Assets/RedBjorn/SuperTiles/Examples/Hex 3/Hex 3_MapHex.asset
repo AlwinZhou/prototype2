@@ -30,7 +30,8 @@ MonoBehaviour:
     Prefab: {fileID: 0}
     GridOffset: 0
     Tags: []
-    Prefabs: []
+    Prefabs:
+    - {fileID: 0}
   - Type: Blocks
     Id: 207cdd09cba0fd94895dc79a6d083d72
     MapColor: {r: 1, g: 0, b: 0, a: 0.70980394}
@@ -39,7 +40,8 @@ MonoBehaviour:
     Tags:
     - {fileID: 11400000, guid: 25b8c40cae2c9684985e9ebdc6331b8e, type: 2}
     - {fileID: 11400000, guid: 196faf469e52d404f97d02638d188138, type: 2}
-    Prefabs: []
+    Prefabs:
+    - {fileID: 0}
   Tiles:
   - TilePos: {x: 0, y: 0, z: 0}
     Id: 7290129ede2af3943a8d99956fb9f862

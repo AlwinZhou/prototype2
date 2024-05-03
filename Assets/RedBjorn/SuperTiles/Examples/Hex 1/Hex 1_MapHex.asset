@@ -30,7 +30,8 @@ MonoBehaviour:
     Prefab: {fileID: 0}
     GridOffset: 0
     Tags: []
-    Prefabs: []
+    Prefabs:
+    - {fileID: 0}
   Tiles:
   - TilePos: {x: -1, y: 3, z: -2}
     Id: 1ed4db7999d5cef48aef731c425fc7b7

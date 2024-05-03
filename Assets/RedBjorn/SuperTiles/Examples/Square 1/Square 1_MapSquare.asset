@@ -30,7 +30,8 @@ MonoBehaviour:
     Prefab: {fileID: 0}
     GridOffset: 0
     Tags: []
-    Prefabs: []
+    Prefabs:
+    - {fileID: 0}
   - Type: Obstacle
     Id: 0f85f5b7bf7e7e2468d4a48c8d935c15
     MapColor: {r: 0, g: 0, b: 0, a: 0.5}
@@ -39,7 +40,8 @@ MonoBehaviour:
     Tags:
     - {fileID: 11400000, guid: 25b8c40cae2c9684985e9ebdc6331b8e, type: 2}
     - {fileID: 11400000, guid: 196faf469e52d404f97d02638d188138, type: 2}
-    Prefabs: []
+    Prefabs:
+    - {fileID: 0}
   - Type: ObstacleLow
     Id: f6a49be9fc7b85c43850ae90a53bd9f6
     MapColor: {r: 1, g: 0, b: 0, a: 0.5}
@@ -47,7 +49,8 @@ MonoBehaviour:
     GridOffset: 0
     Tags:
     - {fileID: 11400000, guid: 25b8c40cae2c9684985e9ebdc6331b8e, type: 2}
-    Prefabs: []
+    Prefabs:
+    - {fileID: 0}
   Tiles:
   - TilePos: {x: -16, y: 0, z: -16}
     Id: 0f85f5b7bf7e7e2468d4a48c8d935c15
