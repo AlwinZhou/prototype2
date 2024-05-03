@@ -26,7 +26,7 @@ MonoBehaviour:
   - Stat: {fileID: 11400000, guid: 02ff82ad2e668174a94206fb9652c466, type: 2}
     Value: 0
   - Stat: {fileID: 11400000, guid: f37a0b4c8e4f9c147996579540689891, type: 2}
-    Value: 2
+    Value: 3
   Tags:
   - {fileID: 11400000, guid: ad3419103d68cbe44aeba7cdf9bc64ac, type: 2}
   - {fileID: 11400000, guid: cc09dd82eb617944eac2045647c1abe0, type: 2}

@@ -17,10 +17,8 @@ MonoBehaviour:
   Stackable: 0
   MaxStackCount: 1
   Stats:
-  - Stat: {fileID: 11400000, guid: 605ae8dc5537c9c449a6eef109483192, type: 2}
-    Value: 6000
   - Stat: {fileID: 11400000, guid: f37a0b4c8e4f9c147996579540689891, type: 2}
-    Value: 5
+    Value: 4
   Tags:
   - {fileID: 11400000, guid: ad3419103d68cbe44aeba7cdf9bc64ac, type: 2}
   - {fileID: 11400000, guid: 6f5f7c46ce11de84398cc61350b2e1be, type: 2}

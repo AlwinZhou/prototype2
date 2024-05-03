@@ -19,7 +19,7 @@ MonoBehaviour:
   Tags: []
   Stats:
   - Stat: {fileID: 11400000, guid: 87e0f3529cdb3f84fab327d1c0f20af5, type: 2}
-    Value: 25
+    Value: 28
   - Stat: {fileID: 11400000, guid: 93ecb439b04016e44811e288dc6e8bea, type: 2}
     Value: 4
   - Stat: {fileID: 11400000, guid: e8f990bc728b1ae4189b905900a04eb4, type: 2}
